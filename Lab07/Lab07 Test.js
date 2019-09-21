@@ -60,4 +60,6 @@ db.DBBooks.find({year:2007})
 
 db.DBBooks.find({year:{$gt:2007}})
 
-db.DBBooks.find({year:2005, price:{$gt:250}})
+db.DBBooks.find({year:2005, price:{$gt:250}})
+
+db.DBBooks.find({price:{$gt:150}})
